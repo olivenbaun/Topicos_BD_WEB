@@ -1,0 +1,20 @@
+{
+  "name": "topicos_bd_web",
+  "version": "1.0.0",
+  "description": "script para fazer leitura de comentarios de um video do youtube utilizando o Kafka.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kafka.JS",
+    "youtube"
+  ],
+  "author": "Caroline S Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "@googleapis/youtube": "^19.0.0",
+    "express": "^4.19.2",
+    "kafkajs": "^2.2.4"
+  }
+}
